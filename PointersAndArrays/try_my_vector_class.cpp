@@ -36,6 +36,9 @@ void test() {
 int main(int argc, char const *argv[]) {
   double sum = read_and_sum2(5);
   std::cout << "Sum: " << sum << "\n";
+  MyVector2 v1 = {2,3,4,5,6,7,8,9,23,23,3234};
+  std::cout << "Sum: " << sum << "\n";
+  std::cout << "V1: " << v1.size() << "\n";
   test();
   return 0;
 }
