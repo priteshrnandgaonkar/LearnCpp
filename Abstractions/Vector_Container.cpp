@@ -1,5 +1,7 @@
 #include "../PointersAndArrays/MyVector2.h"
 #include <initializer_list>
+#include "Container.h"
+
 class Vector_container : public Container { // Vector_container implements Container
   MyVector2 v;
 public:
